@@ -54,6 +54,12 @@ function App() {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+      <footer>
+        Max Assis{" - "}
+        <a href="https://www.github.com/maxassis">github.com/maxassis</a>
+        <br /> Dados Extraidos de{" "}
+        <a href="https://www.themoviedb.org/">www.themoviedb.org</a> <br />
+      </footer>
     </div>
   );
 }
